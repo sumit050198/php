@@ -52,7 +52,6 @@
         } else {
             echo "Error: " . $sql . "<br>" . $conn->error;
         }
-
         // Close connection
         $conn->close();
     }
